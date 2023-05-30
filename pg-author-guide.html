@@ -8,7 +8,7 @@
 <html lang="en-US">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Numerical Answers</title>
+<title>PG Author Guide</title>
 <meta name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta property="og:type" content="article">
@@ -190,7 +190,7 @@ window.MathJax = {
 <span id="theeye" class="motioncheck"></span>eye tracking - not yet</li>
 </ol>
 </li>
-</ol></div></button><span class="treebuttons"><a class="previous-button button" href="section-hello-world.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="up-button button" href="pg-author-guide.html" title="Up"><span class="icon">^</span><span class="name">Up</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon">&gt;</span></span></span><div class="searchbox"><div class="searchwidget">
+</ol></div></button><span class="treebuttons"><span class="previous-button button disabled"><span class="icon">&lt;</span><span class="name">Prev</span></span><span class="up-button button disabled"><span class="icon">^</span><span class="name">Up</span></span><a class="next-button button" href="section-hello-world.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a></span><div class="searchbox"><div class="searchwidget">
 <input id="ptxsearch" class="ptxsearch" type="text" name="terms" placeholder="Search" onchange="doSearch()"><button id="searchbutton" class="searchbutton" type="button" onclick="doSearch()">🔍</button>
 </div></div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(
 \newcommand{\lt}{&lt;}
@@ -202,42 +202,14 @@ window.MathJax = {
 <div class="ptx-page">
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth1"><ul class="structural">
 <li><div class="toc-item"><a href="section-hello-world.html" class="internal"><span class="codenumber">1</span> <span class="title">Hello World!</span></a></div></li>
-<li class="active"><div class="toc-item"><a href="section-numerical-answers.html" class="internal"><span class="codenumber">2</span> <span class="title">Numerical Answers</span></a></div></li>
+<li><div class="toc-item"><a href="section-numerical-answers.html" class="internal"><span class="codenumber">2</span> <span class="title">Numerical Answers</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="section" id="section-numerical-answers"><h2 class="heading hide-type">
-<span class="type">Section</span> <span class="codenumber">2</span> <span class="title">Numerical Answers</span>
-</h2>
-<div class="para" id="p-4">This exercise asks you to add two integers.</div>
-<figure class="listing figure-like" id="listing-2"><div class="code-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><pre class="program"><code class="language-perl">DOCUMENT();
-
-loadMacros(
-	"PGbasicmacros.pl",
-	"PGML.pl"
-);
-
-BEGIN_PGML
-What is [`2 + 2`]?
-
-[_]{4}{5}
-END_PGML
-
-ENDDOCUMENT();
-</code></pre></div>
-<figcaption><span class="type">Listing</span><span class="space"> </span><span class="codenumber">2.1<span class="period">.</span></span><span class="space"> </span>Add Integers</figcaption></figure><article class="exercise exercise-like" id="exercise-2"><h3 class="heading">
-<span class="type">Exercise</span><span class="space"> </span><span class="codenumber">2.2</span><span class="period">.</span>
-</h3>
-<div id="webwork-2" class="exercise-wrapper" data-domain="https://webwork-ptx.aimath.org" data-seed="2" data-localize-correct="Correct" data-localize-incorrect="Incorrect" data-localize-blank="Blank" data-localize-submit="Submit" data-localize-check-responses="Check Responses" data-localize-reveal="Reveal" data-localize-randomize="Randomize" data-localize-reset="Reset" data-sourceFilePath="pg/add-integers.pg" data-courseID="anonymous" data-userID="anonymous" data-coursePassword="anonymous" aria-live="polite">
-<div class="problem-buttons"><button class="webwork-button" onclick="handleWW('webwork-2')">Activate</button></div>
-<div class="problem-contents">
-<div class="para" id="p-5">What is <span class="process-math">\(2 + 2\text{?}\)</span>
-</div>
-<div class="solutions">
-<a href="" data-knowl="" class="id-ref answer-knowl original" data-refid="hk-answer-1" id="answer-1"><span class="type">Answer</span><span class="period">.</span></a><div class="hidden-content tex2jax_ignore" id="hk-answer-1"><div class="answer solution-like"><div class="para" id="p-6"><span class="process-math">\(4\)</span></div></div></div>
-</div>
-</div>
-</div></article><div class="para" id="p-7">Note the math content is inside <code class="code-inline tex2jax_ignore">[` ... `]</code> delimiters. The answer blank is created with <code class="code-inline tex2jax_ignore">[_]</code>. Then the <code class="code-inline tex2jax_ignore">{4}</code> declares the answer. And finally, the <code class="code-inline tex2jax_ignore">{5}</code> is an optional argument to declare the width of the answer blank in output formats where the width is not dynamic.</div></section></div>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="article" id="pg-author-guide"><nav class="summary-links"><ul>
+<li><a href="section-hello-world.html" class="internal"><span class="codenumber">1</span> <span class="title">Hello World!</span></a></li>
+<li><a href="section-numerical-answers.html" class="internal"><span class="codenumber">2</span> <span class="title">Numerical Answers</span></a></li>
+</ul></nav></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="section-hello-world.html" title="Previous"><span class="icon">&lt;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon">&gt;</span></span>
+<span class="previous-button button disabled"><span class="icon">&lt;</span><span class="name">Prev</span></span><a class="top-button button" href="#" title="Top"><span class="icon">^</span><span class="name">Top</span></a><a class="next-button button" href="section-hello-world.html" title="Next"><span class="name">Next</span><span class="icon">&gt;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
