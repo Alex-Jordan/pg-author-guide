@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<section xml:id="section-numerical-answers" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Numerical Answers</title>
+  <p>
+    This exercise asks you to add two integers.
+  </p>
+
+  <listing>
+      <caption>Add Integers</caption>
+      <program language="perl">
+          <input><xi:include href="../assets/pg/add-integers.pg" parse="text"/></input>
+      </program>
+  </listing>
+
+  <exercise>
+    <!-- For now, have to manually copy the pg file to host course -->
+    <webwork source="pg/add-integers.pg"/>
+  </exercise>
+
+  <p>
+    Note the math content is inside <c>[` ... `]</c> delimiters.
+    The answer blank is created with <c>[_]</c>. Then the <c>{4}</c> declares the answer.
+    And finally, the <c>{5}</c> is an optional argument to declare the width of the
+    answer blank in output formats where the width is not dynamic.
+  </p>
+
+</section>

@@ -1,0 +1,14 @@
+DOCUMENT();
+
+loadMacros(
+	"PGbasicmacros.pl",
+	"PGML.pl"
+);
+
+BEGIN_PGML
+What is [`2 + 2`]?
+
+[_]{4}{5}
+END_PGML
+
+ENDDOCUMENT();

@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<section xml:id="section-hello-world" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Hello World!</title>
+  <p>
+    Here is a very basic <q>Hello World!</q> PG problem.
+    It does nothing except print <q>Hello World!</q>.
+  </p>
+
+  <listing>
+      <caption>Hello World!</caption>
+      <program language="perl">
+          <input><xi:include href="../assets/pg/hello-world.pg" parse="text"/></input>
+      </program>
+  </listing>
+
+  <exercise>
+    <!-- For now, have to manually copy the pg file to host course -->
+    <webwork source="pg/hello-world.pg"/>
+  </exercise>
+
+  <p>
+    Note the file starts with <c>DOCUMENT();</c> and ends with <c>ENDDOCUMENT();</c>.
+    The <c>loadMacros()</c> command is loading two fundamnetal macro libraries you
+    will almost always want to load. Thee problem statement itself is in between
+    <c>BEGIN_PGML</c> and <c>END_PGML</c>.
+  </p>
+
+</section>

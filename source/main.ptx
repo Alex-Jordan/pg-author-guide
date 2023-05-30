@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <docinfo>
+    <brandlogo source="images/webwork_square.svg"/>
+    <!-- <macros>\newcommand{\foo}{b^{ar}}</macros> -->
+    <!-- <latex-image-preamble>\usepackage{tikz}</latex-image-preamble> -->
+    <rename element="inlineexercise">Exercise</rename>
+  </docinfo>
+  <article xml:id="pg-author-guide">
+    <title>PG Author Guide</title>
+    <xi:include href="./hello-world.ptx" />
+    <xi:include href="./numerical-answers.ptx" />
+  </article>
+</pretext>

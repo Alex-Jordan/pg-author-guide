@@ -1,0 +1,12 @@
+DOCUMENT();
+
+loadMacros(
+	"PGbasicmacros.pl",
+	"PGML.pl"
+);
+
+BEGIN_PGML
+Hello World!
+END_PGML
+
+ENDDOCUMENT();
